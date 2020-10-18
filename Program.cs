@@ -6,7 +6,10 @@ namespace DIO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int number = 5;
+            for (int i=0; i<number; i++){
+            Console.WriteLine($"Hello World! {i}");
+            }
         }
     }
 }
